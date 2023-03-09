@@ -1,11 +1,11 @@
 #include "mai.h"
 /**
- * helperFunction - checks if sqrt of number exists
- * @num: number.
- * @psqrt: possible sqrt of number.
- *
- * Return: sqrt of number of -1 for error.
- */
+  *helperFunction - checks if sqrt of number exists
+  *@num: number.
+  *@psqrt: poissible sqrt of number.
+  *
+  *Return: sqrt of number ot -1 for error.
+  */
 int helperFunction(int num, int psqrt)
 {
 	if ((psqrt * psqrt) == num)
@@ -21,12 +21,13 @@ int helperFunction(int num, int psqrt)
 	}
 }
 
+
 /**
-  * _sqrt_recursion - returns the natural square root of a number.
-  * @n: number to find sqrt of.
+  *_sqrt_recursion - returns the natural square root of a number.
+  *@n: number to find sqrt of.
   *
-  * Return: squareroot of n.
-  * -1 if n does not have a natural sqrt.
+  *Return: squareroot of n.
+  *-1 if n does not have a natural sqrt.
   */
 int _sqrt_recursion(int n)
 {
